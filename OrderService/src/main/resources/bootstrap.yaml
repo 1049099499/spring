@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: orderkService
+  cloud:
+    nacos:
+      config:
+        server-addr: 172.18.0.32:8849,172.18.0.32:8851,172.18.0.32:8849
+        namespace: 8d53a658-0e97-468e-b901-42291996b381
+        refresh-enabled: true
+        file-extension: yaml
+        enabled: true
+        name: OrderService
+        group: dev
